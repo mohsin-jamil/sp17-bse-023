@@ -1,0 +1,48 @@
+/*
+s * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lab.as2;
+
+/**
+ *
+ * @author sp17-bse-023
+ */
+public class student {
+    
+ 
+    protected int name;
+    protected float test;
+    protected int course_grade;
+    private final String s;
+    
+    public void  student(){
+        
+        
+    }
+    
+    student(String s){
+        this.s =s;
+        
+    }
+    
+    public int getcoursegrade(){
+        int coursegrade=0;
+    
+        return coursegrade;
+        
+    }
+    
+    public int getname(){
+        return name;
+                          
+    }
+    
+    
+      public float gettest(){
+        
+          return test;
+          
+      }
+}
